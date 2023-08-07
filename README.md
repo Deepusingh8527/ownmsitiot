@@ -1,4 +1,4 @@
-#Customizable Triggers: Implement custom triggers and events to automate actions based on sensor data, time schedules, user inputs, or external events.
+# Customizable Triggers: Implement custom triggers and events to automate actions based on sensor data, time schedules, user inputs, or external events.
 
 Cloud Integration: Integrate with popular cloud platforms to leverage their services, enabling data storage, analytics, and more.
 
