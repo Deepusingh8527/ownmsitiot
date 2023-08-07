@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSITxIOT</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cambay:wght@700&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+    <script src="logic.js"></script>
+
+    <section class="wrapper"> 
+    
+    <div id="title">
+    </div>
+    <div class="iot">
+        <h1>
+            Conference Room IOT Control
+        </h1>
+    </div>
+    <div class="stl">
+        <section>
+            <input class="d1" type="checkbox" id="firstd1" onclick="firstd1()" />
+            <label class="d1" for="firstd1" data-text-on1="FAN ON" data-text-off1="FAN OFF"></label>
+
+            <input class="d2" type="checkbox" id="firstd2" onclick="firstd2()" />
+            <label class="d2" for="firstd2" data-text-on2="FAN ON" data-text-off2="FAN OFF"></label>
+
+            <input class="d3" type="checkbox" class="d3" id="firstd3" onclick="firstd3()" />
+            <label class="d3" for="firstd3" data-text-on3="LIGHTS ON" data-text-off3="LIGHTS OFF"></label>
+
+            <input class="d4" type="checkbox" id="firstd4" onclick="firstd4()" />
+            <label class="d4" for="firstd4" data-text-on4="LIGHTS ON" data-text-off4="LIGHTS OFF"></label>
+        </section>
+    </div>
+    <div class="tsl">
+        <section>
+            <input class="d5" type="checkbox" id="firstd5" onclick="firstd5()" />
+            <label class="d5" for="firstd5" data-text-on5="LIGHTS ON" data-text-off5="LIGHTS OFF"></label>
+
+            <input class="d6" type="checkbox" id="firstd6" onclick="firstd6()" />
+            <label class="d6" for="firstd6" data-text-on6="FAN ON" data-text-off6="FAN OFF"></label>
+
+            <input class="d7" type="checkbox" id="firstd7" onclick="firstd7()" />
+            <label class="d7" for="firstd7" data-text-on7="FAN ON" data-text-off7="FAN OFF"></label>
+
+            <input class="d8" type="checkbox" id="firstd8" onclick="firstd8()" />
+            <label class="d8" for="firstd8" data-text-on8="LIGHTS ON" data-text-off8="LIGHTS OFF"></label>
+        </section>
+    </div>
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+  </section>
+</body>
+
+</html>
